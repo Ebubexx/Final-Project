@@ -1,12 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <body>
 <head>
+  <meta charset="UTF-8">
+  <title>Ebube Mbanefo - Personal Website Assignment</title>
 <style>
   h2 {
   color: black;
   }
   
   body {
+  margin: 0;
+  padding: 0;
   color: white; 
   background-color: black;
   }
@@ -14,6 +19,50 @@
   height: 700px;  
   }
   
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 20px;
+      }
+      
+    .logo {
+     font-size: 18px;
+     font-weight: bold;
+    }
+  
+    .nav {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+  
+    .nav-label {
+      font-size: 16px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+      
+    ul a {
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      margin: 5px;
+      text-transform: uppercase;
+    }
+  
+  #intro {
+    width: 75%;
+    align-items: center;
+    height: 70%;
+    background-color: #2B2B2B;
+    border: medium solid #80102F;
+  }
+
   #section0 {
     background-color: #b8b51d;
   }
@@ -33,23 +82,25 @@
   
 </style>
 </head>
-<div> 
-  <p>Ebube</p> <p>Chapter</p> </div>
-<a href="#section1">1</a>
-<a href="#section1">2</a>
-<a href="#section1">3</a>
-<a href="#section1">4</a>  
-<h2>
-Ebube's Dance Dance Revolution</h2>
-<div id="section0">
-  <h2>Chapter 1</h2>
-  <p>
-    I've loved dancing for as long as I can remember. Movement is a huge part of who I am—it’s woven into my personality and values. Naturally, my love for dance goes hand in hand with my love for music. I’m constantly searching for new songs and artists, and when a song truly resonates, it inspires me to move.
-
-    Recently, my sister asked how I knew I was a good dancer. I joked that no one ever told me I was bad, so I just kept going. But in reflecting on it, I’ve realized what might seem like raw talent is actually years of practice—practice that often doesn’t look like practice. I watch tutorials to learn tricky moves and can spend hours perfecting a choreography until it feels just right.
-
-    Unfortunately, I don’t have any childhood photos or videos of me dancing (immigrant life!), but here’s a picture of me at about four years old—probably already dancing in spirit.</p>
+  <div class="header">
+    <div class="logo">Ebube</div>
+    <div class="nav">
+      <div class="nav-label">Chapter</div>
+    <ul>
+      <a href="#prologue">1</a>
+      <a href="#Cringe Create Repeat">2</a>
+      <a href="#The one where I joined AfroxDance">3</a>
+      <a href="#What's Next?">4</a>
+     </ul>
+    </div>
+  </div>
+  
+<div id="Intro">
+  <h1 class="page-header">Ebube's</h1>
+  <h2 class="title">Dance Dance Revolution</h2>
 </div>
+  
+  
 <div id="section1">
   <h2>Chapter 2</h2>
   <p>
